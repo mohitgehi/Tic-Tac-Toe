@@ -1,0 +1,118 @@
+*{
+  font-family: 'Balsamiq Sans', cursive;
+  box-sizing: border-box;
+}
+
+body{
+height:100vh;
+width:100vw;
+display: flex;
+flex-direction: row;
+}
+.left{
+height:100%;
+width: 50%;
+}
+.right{
+  height:80%;
+  width:50%;
+  margin-top: 2.5%;
+  margin-right: 5%;
+  display: flex;
+justify-content: center;
+}
+.logo{
+height:15%;
+margin: 2.5% 0 0 5%;
+transform: skew(170deg);
+}
+.img{
+  height:100%;
+  
+}
+.player-info{
+height:5%;
+margin: 5% 0 0 5%;
+display: flex;
+flex-direction: row;
+}
+
+.start{
+  height:10%;
+  width:100%;
+  margin: 5% 5% 0 5%;
+  display: flex;
+flex-direction: column;
+  
+}
+.current{
+  width:100%;
+  margin: 5% 5% 0 5%;
+  display: flex;
+flex-direction: column;
+  
+}
+.p1{
+  color:#ff0000;
+  width:45%;
+}
+.p2{
+  color:#061cf8;
+  width:45%;
+}
+.vs{
+  width:10%;
+}
+.game{
+height: 100%;
+width:100%;
+transform: skew(170deg);
+
+
+}
+.cell {
+  height: 100%;
+  width:30%;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 80px;
+  text-align: center;
+  border-bottom: 10px solid#ff0000;
+  border-right: 10px solid #061cf8;
+}
+.cell1 {
+  height: 100%;
+  width:30%;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 80px;
+  text-align: center;
+  border-right: 10px solid #061cf8;
+
+}
+.cell2 {
+  height: 100%;
+  width:30%;
+  font-size: 80px;
+  font-family: 'Balsamiq Sans', cursive;
+  text-align: center;
+  border-bottom: 10px solid#ff0000;
+
+}
+.cell3 {
+  height: 100%;
+  width:30%;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 80px;
+  text-align: center;
+}
+.hide {
+  display: none;
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  height: 20%;
+  width:100%;
+  margin: auto;
+}
